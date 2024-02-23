@@ -1,0 +1,15 @@
+configuration Commands
+
+git config --global user.name chloemeng ---create username
+git config --global user.name -check username
+git config --global user.email chloemeng98@gmail.com
+
+creating repos
+git init --create .git folder(hidden)/initialize local git repo
+git status -check git repo success:if "on branch master"
+                            fail:
+git add gitCommands.txt
+git rm --cached gitCommands.txt
+
+
+ls -a --show hidden folder 
