@@ -6,10 +6,13 @@ git config --global user.email chloemeng98@gmail.com
 
 creating repos
 git init --create .git folder(hidden)/initialize local git repo
-git status -check git repo success:if "on branch master"
+git status -check git repo success:if "on branch master"/shows which files are in the staging area
                             fail:
-git add gitCommands.txt
-git rm --cached gitCommands.txt
+git add gitCommands.txt -stages file
+git add . --add everything
+git rm --cached gitCommands.txt -remove a file from staging area
+git reset --remove everything
+git commit -m "Added gitCommends.txt file" --committing files in the staging area
 
 
 ls -a --show hidden folder 
